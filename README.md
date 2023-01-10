@@ -1,6 +1,6 @@
 # FlappyBird
 
-This is a recreating of the famous game Flappy Bird or in my case Flappy Dot?
+This is a recreation of the famous game Flappy Bird or in my case Flappy Dot?
 Had some fun creating this game using object oriented programming.
 The game has a Bird object in the Bird.cs class. Pipes in the Pipes.cs class and the main class is Form1.cs.
 Instead of creating my own collision detection I experimented with the C# function Rectangle.IntersectsWith(Rectangle) to detect whether a rectangle intersects with another rectangle. I found success with this method but I found it buggy at times like if you touch the pipes at the corners it sometimes does not detect it.
